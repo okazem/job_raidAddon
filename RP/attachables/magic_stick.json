@@ -1,0 +1,30 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "okaze:magic_stick",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "default": "textures/okaze/magic_stick",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.magic_stick"
+            },
+            "animations": {
+                "test_tool_wield": "animation.magic_stick.wield"
+            },
+            "scripts": {
+                "animate": [
+                    "test_tool_wield"
+                ]
+            },
+            "render_controllers": [
+                "controller.render.item_default"
+            ]
+        }
+    }
+}
