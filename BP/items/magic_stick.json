@@ -30,9 +30,14 @@
             "use": {
                 "run_command": {
                     "command": [
-                        "playsound mob.evocation_illager.cast_spell @a"
+                        "/scriptevent okaze:fireball"
                     ],
                     "target": "holder"
+                },
+                "shoot": {
+                    "angle_offset": "query.cardinal_facing",
+                    "projectile": "minecraft:fireball",
+                    "launch_power": 3
                 }
             }
         }

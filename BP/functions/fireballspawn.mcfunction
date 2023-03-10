@@ -1,0 +1,1 @@
+summon fireball ^ ^ ^0.1
